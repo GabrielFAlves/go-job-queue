@@ -1,4 +1,4 @@
-﻿package worker
+package worker
 
 import (
 	"context"
@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/seu-usuario/go-job-queue/internal/domain"
-	"github.com/seu-usuario/go-job-queue/internal/metrics"
-	"github.com/seu-usuario/go-job-queue/internal/queue"
+	"github.com/GabrielFAlves/go-job-queue/internal/domain"
+	"github.com/GabrielFAlves/go-job-queue/internal/metrics"
+	"github.com/GabrielFAlves/go-job-queue/internal/queue"
 )
 
 type Consumer interface {

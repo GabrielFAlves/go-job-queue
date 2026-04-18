@@ -1,4 +1,4 @@
-﻿package producer
+package producer
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/seu-usuario/go-job-queue/internal/domain"
+	"github.com/GabrielFAlves/go-job-queue/internal/domain"
 )
 
 type QueuePublisher interface {

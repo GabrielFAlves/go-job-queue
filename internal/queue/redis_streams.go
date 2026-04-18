@@ -1,4 +1,4 @@
-﻿package queue
+package queue
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"github.com/seu-usuario/go-job-queue/internal/domain"
+	"github.com/GabrielFAlves/go-job-queue/internal/domain"
 )
 
 var ErrNoMessages = errors.New("no messages available")

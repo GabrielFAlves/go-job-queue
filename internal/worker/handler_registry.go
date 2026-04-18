@@ -1,11 +1,11 @@
-﻿package worker
+package worker
 
 import (
 	"context"
 	"fmt"
 	"sync"
 
-	"github.com/seu-usuario/go-job-queue/internal/domain"
+	"github.com/GabrielFAlves/go-job-queue/internal/domain"
 )
 
 type Handler func(ctx context.Context, job domain.Job) error

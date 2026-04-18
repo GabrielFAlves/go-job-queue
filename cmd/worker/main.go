@@ -1,4 +1,4 @@
-﻿package main
+package main
 
 import (
 	"context"
@@ -15,10 +15,10 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"github.com/seu-usuario/go-job-queue/internal/domain"
-	"github.com/seu-usuario/go-job-queue/internal/metrics"
-	"github.com/seu-usuario/go-job-queue/internal/queue"
-	"github.com/seu-usuario/go-job-queue/internal/worker"
+	"github.com/GabrielFAlves/go-job-queue/internal/domain"
+	"github.com/GabrielFAlves/go-job-queue/internal/metrics"
+	"github.com/GabrielFAlves/go-job-queue/internal/queue"
+	"github.com/GabrielFAlves/go-job-queue/internal/worker"
 )
 
 func main() {
