@@ -1,0 +1,17 @@
+﻿# Build outputs
+*.exe
+*.exe~
+
+# Go cache (local workaround used during development)
+.gocache/
+
+# Logs
+*.log
+*.out.log
+*.err.log
+
+# Temp files
+tmp_*
+
+# Editor backup artifacts with numeric suffix
+*.go.[0-9]*
